@@ -1,0 +1,14 @@
+#+STARTUP: overview
+# -*- mode: org -*-
+
+* Blob scractch
+detector = cv2.SimpleBlobDetector_create()
+    # Detect blobs.
+    # keypoints = detector.detect(fgmask)
+    # Draw detected blobs as red circles.
+    # cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS ensures
+    # the size of the circle corresponds to the size of blob
+#     fg_with_keypoints = cv2.drawKeypoints(
+#       fgmask, keypoints, np.array([]),
+#       (0,0,255),
+#       cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)

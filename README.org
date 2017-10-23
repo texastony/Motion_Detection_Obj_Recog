@@ -20,26 +20,29 @@ possible to run on lesser hardware or a different OS (if you do, let
 me know, I am curious).
 
 * Software requirements 
-(in parathesise is the tested version):
+(in parathesise is the tested version)
 
 ** Installed via pip3:
    - Open-CV 3 (3.3.0)
    - Tensorflow 1.3 (1.3.0)
    - Keras 2 (2.0.8)
    - h5py 2 (2.7.1)
-   - *Jupyter 1 (1.0.0)*\*
+   - *Jupyter 1 (1.0.0)* *
+
+ * *Only needed for the notebook*
 
 ** Installed via Homebrew or apt-get:
    - Python 3 (3.6.3)
    - HDF5 1.10 (1.10.1_2)
 
-\* *Only needed for the notebook*
 
 * Thanks
   - [[https://www.linkedin.com/in/mileserickson/][Miles Erickson]]
   - [[https://www.galvanize.com/seattle][Galvanize]]
 
-* Referrences
+* Referrence
   - [[http://arxiv.org/abs/1704.04861][MobileNets: Efficient
     Convolutional Neural Networks for Mobile Vision Applications]]
-
+  - [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj_39usyYfXAhWKgFQKHTDxC8wQFggsMAA&url=https%3A%2F%2Fhal.inria.fr%2Finria-00545478%2Fdocument&usg=AOvVaw0c9NNung9f-dbLhXJ89Nxx][Comparative study of background subtraction algorithms]]
+  - [[http://code.taobao.org/svn/algorithm_doc/zivkovic2004ICPR.pdf][Improved adaptive Gaussian mixture model for background subtraction]]
+  - [[https://stackoverflow.com/a/15058451/2090045][Open-CV close window solution]]
