@@ -1,0 +1,45 @@
+#+STARTUP: overview
+# -*- mode: org -*-
+
+This is a demo combining Open-CV functions with Keras to detect
+objects. Tensorflow will be used as Keras' backend. 
+
+The intended audience is the intermediate Python programmer, though
+the advanced programmer may benefit from the computer-vision and
+machine learning aspects of this demo.
+
+
+* Hardware requirements:
+
+At a minimum, a webcammera and a system at least as powerful as the
+Raspberry Pi 3 B are required. 
+
+The project is tested on an early 2011 MacBook Pro (RAM 16GB, SSD
+500GB, macOS 10.12.6) and a Raspberry Pi 3 B with 10GB. It is likely
+possible to run on lesser hardware or a different OS (if you do, let
+me know, I am curious).
+
+* Software requirements 
+(in parathesise is the tested version):
+
+** Installed via pip3:
+   - Open-CV 3 (3.3.0)
+   - Tensorflow 1.3 (1.3.0)
+   - Keras 2 (2.0.8)
+   - h5py 2 (2.7.1)
+   - *Jupyter 1 (1.0.0)*\*
+
+** Installed via Homebrew or apt-get:
+   - Python 3 (3.6.3)
+   - HDF5 1.10 (1.10.1_2)
+
+\* *Only needed for the notebook*
+
+* Thanks
+  - [[https://www.linkedin.com/in/mileserickson/][Miles Erickson]]
+  - [[https://www.galvanize.com/seattle][Galvanize]]
+
+* Referrences
+  - [[http://arxiv.org/abs/1704.04861][MobileNets: Efficient
+    Convolutional Neural Networks for Mobile Vision Applications]]
+
