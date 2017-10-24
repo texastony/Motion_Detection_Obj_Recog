@@ -1,5 +1,6 @@
 #+STARTUP: overview
 # -*- mode: org -*-
+*Work in Progress*
 
 This is a demo combining Open-CV functions with Keras to detect
 objects. Tensorflow will be used as Keras' backend. 
@@ -19,8 +20,8 @@ The project is tested on an early 2011 MacBook Pro (RAM 16GB, SSD
 possible to run on lesser hardware or a different OS (if you do, let
 me know, I am curious).
 
-* Software requirements 
-(in parathesise is the tested version)
+* Software requirements (in parathesise is the tested version)
+
 
 ** Installed via pip3:
    - Open-CV 3 (3.3.0)
@@ -29,12 +30,20 @@ me know, I am curious).
    - h5py 2 (2.7.1)
    - *Jupyter 1 (1.0.0)* *
 
- * *Only needed for the notebook*
-
+ \* *Only needed for the notebook*
+   
 ** Installed via Homebrew or apt-get:
    - Python 3 (3.6.3)
    - HDF5 1.10 (1.10.1_2)
 
+
+* Currently:
+Quick demo on Probabalistic background subtraction.
+
+* Up Coming
+  - Blobing foreground and tracking blobs
+  - Transfer learning on MobileNet
+  - Labeling with transfered MobileNet
 
 * Thanks
   - [[https://www.linkedin.com/in/mileserickson/][Miles Erickson]]
@@ -46,3 +55,4 @@ me know, I am curious).
   - [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj_39usyYfXAhWKgFQKHTDxC8wQFggsMAA&url=https%3A%2F%2Fhal.inria.fr%2Finria-00545478%2Fdocument&usg=AOvVaw0c9NNung9f-dbLhXJ89Nxx][Comparative study of background subtraction algorithms]]
   - [[http://code.taobao.org/svn/algorithm_doc/zivkovic2004ICPR.pdf][Improved adaptive Gaussian mixture model for background subtraction]]
   - [[https://stackoverflow.com/a/15058451/2090045][Open-CV close window solution]]
+

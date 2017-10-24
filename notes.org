@@ -12,3 +12,15 @@ detector = cv2.SimpleBlobDetector_create()
 #       fgmask, keypoints, np.array([]),
 #       (0,0,255),
 #       cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+
+* Documentation:
+  - Open-CV: https://docs.opencv.org/3.2.0/
+
+*  \TODO List
+** DONE Figure out Background Subtraction Parameters
+** DONE Try BackgroundSubtractorKNN
+** TODO Refector what you have
+** TODO Explore blob params
+** TODO Transfer learning on MobileNet for kittens
+** TODO test on Pi
+
