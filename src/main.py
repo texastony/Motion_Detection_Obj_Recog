@@ -9,9 +9,10 @@ fgbg = cv2.createBackgroundSubtractorKNN(
     history=50, dist2Threshold=500.0, detectShadows=False)
 
 cv2.namedWindow(WINDOW_NAME, cv2.WINDOW_NORMAL)
-cv2.startWindowThread()
-width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)//2)
-height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)//2)
+# cv2.startWindowThread() # Not an option on pi with jupyter.
+# Should definately try if running on other platforms.
+width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)//DISP_DENOM)
+height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)//DISP_DENOM)
 display_img = np.empty((height, width, 3), dtype=np.uint8)
 cv2.createTrackbar('History', WINDOW_NAME,
                    fgbg.getHistory(), 500,
